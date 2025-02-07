@@ -1,7 +1,5 @@
 # ARM Viewer for VS Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/bencoleman.armview.svg)](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview)
-![Installs](https://vsmarketplacebadge.apphb.com/installs-short/bencoleman.armview.svg)
 
 This extension displays a graphical preview of Azure Resource Manager (ARM) templates. The view will show all resources with the official Azure icons and also linkage between the resources. Uses the [Cytoscape.js library](http://js.cytoscape.org/)
 
