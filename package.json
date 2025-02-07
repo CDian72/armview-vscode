@@ -19,7 +19,7 @@
     "azure"
   ],
   "engines": {
-    "vscode": "^1.30.0"
+    "vscode": "^1.64.0"
   },
   "categories": [
     "Programming Languages",

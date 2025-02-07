@@ -305,8 +305,8 @@ export default class ARMParser {
 
         // Handle linked templates, oh boy, this is a whole world of pain
         if (res.type === 'microsoft.resources/deployments' && res.properties
-            && res.properties.templateLink && res.properties.templateLink.uri) {
-          let linkUri = res.properties.templateLink.uri
+            && res.properties.templateLink) {
+          let linkUri = res.properties.templateLink.uri ? res.properties.templateLink.uri : res.properties.templateLink.relativePath
           linkUri = this.expParser.eval(linkUri, true)
 
           // Strip off everything weird after file extension, i.e. after any ? or { characters we find
